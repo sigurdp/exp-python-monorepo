@@ -1,0 +1,13 @@
+[tool.poetry]
+package-mode = false
+name = "proj-b"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+lib1 = {path = "../../libs/lib1", develop = true}
+lib2 = {path = "../../libs/lib2", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

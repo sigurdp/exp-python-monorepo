@@ -1,0 +1,9 @@
+services:
+  proj_b:
+    build:
+      dockerfile: ./py/projects/proj_b/Dockerfile
+    ports:
+      - 8000:5000
+    volumes:
+      - ./py/projects/proj_b/proj_b:/home/appuser/py/projects/proj_b/proj_b
+      - ./py/libs:/home/appuser/py/libs

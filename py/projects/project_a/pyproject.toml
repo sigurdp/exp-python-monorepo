@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project-a"
+version = "0.1.0"
+description = "Test project A"
+authors = ["Sigurd Pettersen"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
