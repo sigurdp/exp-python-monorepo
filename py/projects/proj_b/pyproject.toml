@@ -11,3 +11,4 @@ lib2 = {path = "../../libs/lib2", develop = true}
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+

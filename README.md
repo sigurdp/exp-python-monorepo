@@ -41,3 +41,5 @@ poetry add --editable ../../libs/lib1
 ```
 poetry self update
 ```
+
+https://marketplace.visualstudio.com/items?itemName=ameenahsanma.poetry-monorepo
