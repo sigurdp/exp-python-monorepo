@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "server-x"
+version = "0.1.0"
+description = "Server x"
+authors = ["Sigurd Pettersen"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = "^0.20.0"
+server_schemas = {path = "../../libs/server_schemas", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

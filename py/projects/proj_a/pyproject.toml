@@ -1,13 +1,10 @@
 [tool.poetry]
-name = "project-a"
-version = "0.1.0"
-description = "Test project A"
-authors = ["Sigurd Pettersen"]
+package-mode = false
+name = "proj-a"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "^0.103.1"
-uvicorn = "^0.20.0"
+server_schemas = {path = "../../libs/server_schemas", develop = true}
 
 [build-system]
 requires = ["poetry-core"]
