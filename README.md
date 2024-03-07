@@ -24,6 +24,19 @@ py
     └── other tools...
 ```
 
+## Docker stuff
+```
+docker compose build
+
+docker run -it exp-python-monorepo-proj_b /bin/bash
+docker exec -it exp-python-monorepo-proj_b /bin/bash
+
+docker compose up
+curl 0.0.0.0:8000/stuff
+docker exec -it exp-python-monorepo-server_x-1 /bin/bash
+```
+
+
 ## Poetry stuff
 
 poetry env use python3.11
@@ -37,7 +50,7 @@ poetry config virtualenvs.in-project true
 poetry add --editable ../../libs/lib1
 ```
 
-
+Update poetry itself:
 ```
 poetry self update
 ```

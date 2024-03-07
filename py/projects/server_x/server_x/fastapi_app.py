@@ -22,6 +22,7 @@ async def get_stuff() -> schema_x.Stuff:
     stuff = schema_x.Stuff(mystr="Hello, World!", myints=[1, 2, 3])
     return stuff
 
+
 # Usually, run with:
 #   uvicorn server_x.fastapi_app:app --reload
 if __name__ == "__main__":
